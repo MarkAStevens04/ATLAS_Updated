@@ -12,8 +12,8 @@ import gpytorch
 import numpy as np
 import olympus
 import torch
-from golem import *
-from golem import Golem
+# from golem import *
+# from golem import Golem
 from olympus import ParameterVector
 from olympus.campaigns import ParameterSpace
 from olympus.planners import AbstractPlanner, CustomPlanner
@@ -28,7 +28,7 @@ from atlas.known_constraints.known_constraints import (
 )
 from atlas.params.params import Parameters
 from atlas.unknown_constraints.unknown_constraints import UnknownConstraints
-from atlas.utils.golem_utils import get_golem_dists
+# from atlas.utils.golem_utils import get_golem_dists
 from atlas.utils.planner_utils import (
     cat_param_to_feat,
     forward_normalize,
