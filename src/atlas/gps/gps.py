@@ -14,7 +14,7 @@ from botorch.utils.datasets import SupervisedDataset
 from gpytorch.constraints import GreaterThan
 from gpytorch.distributions import MultivariateNormal
 from gpytorch.kernels import MaternKernel, RBFKernel, ScaleKernel
-from gpytorch.lazy import PsdSumLazyTensor
+# from gpytorch.lazy import PsdSumLazyTensor
 from gpytorch.likelihoods import GaussianLikelihood, Likelihood, LikelihoodList
 from gpytorch.models import GP, ApproximateGP, ExactGP
 from gpytorch.priors import GammaPrior, NormalPrior
