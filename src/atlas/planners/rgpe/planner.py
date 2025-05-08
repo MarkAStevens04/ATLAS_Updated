@@ -15,7 +15,7 @@ from botorch.models import SingleTaskGP
 from botorch.models.gpytorch import GPyTorchModel
 from botorch.sampling.normal import SobolQMCNormalSampler
 from gpytorch.distributions import MultivariateNormal
-from gpytorch.lazy import PsdSumLazyTensor
+# from gpytorch.lazy import PsdSumLazyTensor
 from gpytorch.likelihoods import LikelihoodList
 from gpytorch.mlls import ExactMarginalLogLikelihood
 from gpytorch.models import GP
